@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#002955;
+    width:100%;
+    padding:0px 30px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+    float:left;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+
+.logo_i svg{
+    color: hsl(32, 92%, 55%);
+}
+
+.links{
+    padding-left: 60px;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+    gap:28px;
+}
+
+.links ul li{
+    list-style: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 20px;
+    float:right;
+
+    gap:35px;
+}
+
+.search-bar{
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.search_form{
+    padding:5px 10px;
+}
+
+.search_form button i{
+    font-weight: 600;
+}
+
+.search_form input, .search_form button{
+    background-color: inherit;
+    outline:none;
+    border:none;
+}
+
+.cart-logo a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.cart-logo i{
+    font-size: 22px;
+}
+
+
+.user-logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.user-logo i{
+    font-size: 22px;
+}
